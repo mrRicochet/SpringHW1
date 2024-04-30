@@ -1,0 +1,48 @@
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Логирование:
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Метод: getAllUsers
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Класс: class ru.good.HW_8.service.impl.UserServiceImpl
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Аргументы: [Ljava.lang.Object;@1f4fd277
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Результат: []
+апр. 25, 2024 9:58:19 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Конец логирования.
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Логирование:
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Метод: createUser
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Класс: class ru.good.HW_8.service.impl.UserServiceImpl
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Аргументы: [Ljava.lang.Object;@69d679f3
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Результат: User(id=1, name=Dno, email=111)
+апр. 25, 2024 10:00:33 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Конец логирования.
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Логирование:
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Метод: createUser
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Класс: class ru.good.HW_8.service.impl.UserServiceImpl
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Аргументы: [Ljava.lang.Object;@37786f9e
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Результат: User(id=1, name=Alexandr, email=alexandr@yandex.ru)
+апр. 25, 2024 10:02:29 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Конец логирования.
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Логирование:
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Метод: createUser
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Класс: class ru.good.HW_8.service.impl.UserServiceImpl
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Аргументы: [Ljava.lang.Object;@1db7eb23
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Результат: User(id=2, name=Alex, email=alex@yandex.ru)
+апр. 25, 2024 10:02:45 PM ru.good.HW_8.aop.UserActionTracker log
+INFO: Конец логирования.

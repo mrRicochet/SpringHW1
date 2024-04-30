@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="HW_1" />
+        <module name="HW_7" />
+        <module name="microservice-1" />
+        <module name="HW_8" />
+        <module name="microservice-2" />
+        <module name="HW_5 (1)" />
+        <module name="demo" />
+        <module name="apigateway" />
+        <module name="eurekaserver" />
+        <module name="hw_5 (2)" />
+        <module name="hw_5 (1)" />
+        <module name="hw_5" />
+        <module name="demo (2)" />
+        <module name="demo (1)" />
+        <module name="HW_8 (1)" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HW_5 (1)" options="-parameters" />
+      <module name="HW_7" options="-parameters" />
+      <module name="HW_8" options="-parameters" />
+      <module name="HW_8 (1)" options="-parameters" />
+      <module name="apigateway" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="hw_5" options="-parameters" />
+      <module name="hw_5 (1)" options="-parameters" />
+      <module name="hw_5 (2)" options="-parameters" />
+      <module name="microservice-1" options="-parameters" />
+      <module name="microservice-2" options="-parameters" />
+    </option>
+  </component>
+</project>

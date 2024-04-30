@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Пользователи</title>
+</head>
+<body>
+    <h1>Пользователи</h1>
+        <table>
+            <tr>
+                <th>Имя</th>
+                <th>E-mail</th>
+                <th>Возраст</th>
+            </tr>
+            <tr th:each="user: ${users}">
+                <td th:text="${user.name}"></td>
+                <td th:text="${user.email}"></td>
+                <td th:text="${user.age}"></td>
+            </tr>
+        </table>
+    <h2>Добавить пользователя</h2>
+    <form action="/users" method="post">
+        Имя: <input type="text" name="name">
+        E-mail: <input type="text" name="email">
+        Возраст: <input type="number" step="any" name="age"><br /><br />
+        <button type="submit">Добавить пользователя</button>
+    </form>
+</body>
+</html>
